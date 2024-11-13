@@ -43,10 +43,6 @@ import org.json.JSONObject;
       alias = "storage",
       strings = { Manifest.permission.READ_EXTERNAL_STORAGE }
     ),
-    @Permission(
-      alias = "storage",
-      strings = { Manifest.permission.READ_MEDIA_IMAGES }
-    ),
   },
   requestCodes = { WebViewDialog.FILE_CHOOSER_REQUEST_CODE }
 )
